@@ -279,11 +279,17 @@ header .intro-text .intro-heading {
   margin-bottom: 15px;
   padding-top: 150px;
 }
-header .intro-text .software-side {
+header .software-side .intro-heading .software-side {
   color: #FFFFFF;
 }
-header .intro-text .artwork-side {
+header .artwork-side .intro-heading {
   color: #000000;
+}
+header .software-side .intro-lead-in {
+  color: rgba(255,255,255,0.5);
+}
+header .artwork-side .intro-lead-in {
+  color: rgba(0,0,0,0.5);
 }
 /*.artwork-side hr {
   color: #000000;
