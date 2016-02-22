@@ -1012,3 +1012,9 @@ h3 {
 header .artwork-side hr {
   border-color: black;
 }
+.header-caption {
+  text-align: right;
+  text-transform: none;
+  font-size: 16px;
+  margin-top: -150px;
+}
