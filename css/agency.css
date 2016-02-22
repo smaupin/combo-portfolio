@@ -934,12 +934,29 @@ header .artwork-side .theme-btn.active {
   text-decoration: none;
   width: 55px;
 }
+.contact-aw-text {
+  color: rgba(104,113,68,0.5);
+  text-transform: uppercase;
+  text-decoration: none;
+}
 .artwork-side .contact-btn:hover,
 .artwork-side .contact-btn:focus,
 .artwork-side .contact-btn:active,
 .artwork-side .contact-btn.active {
   color: #687144;
   border-color: #687144;
+  text-decoration: none;
+}
+.contact-aw-text:hover,
+.contact-aw-text:focus,
+.contact-aw-text:active,
+.contact-aw-text.active {
+  color: #687144;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#contact-aw a {
+  text-transform: uppercase;
   text-decoration: none;
 }
 #contact-sw a {
@@ -1001,4 +1018,10 @@ header .artwork-side .theme-btn.active {
 }
 .bg-aw-2 .portfolio-caption {
   color: #687144;
+}
+h3 {
+  margin-top: 0;
+}
+header .artwork-side hr {
+  border-color: black;
 }
