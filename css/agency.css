@@ -243,7 +243,7 @@ header {
   text-align: center;
   color: white;*/
 }
-header .software-side {
+header .software-side.top-banner {
   background-image: url('../img/HEADER-SW-04.gif');
   background-repeat: none;
   background-attachment: scroll;
@@ -255,7 +255,7 @@ header .software-side {
   text-align: center;
   color: white;
 }
-header .artwork-side {
+header .artwork-side.top-banner {
   background-image: url('../img/HEADER-50-AW.jpg');
   background-repeat: none;
   background-attachment: scroll;
@@ -340,6 +340,17 @@ section h3.section-subheading {
   font-style: italic;
   font-weight: 700;
   margin-bottom: 75px;
+}
+#projects-sw h3.section-subheading, 
+#watercolor-aw h3.section-subheading,
+#offshoots-aw h3.section-subheading {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 75px;
+  color: rgba(255,255,255,0.5);
 }
 @media (min-width: 768px) {
   section {
@@ -801,10 +812,10 @@ body {
   background-color: #A5BAC7;
 }
 .bg-aw-1 {
-  background-color: #D2EAEA;
+  background-color: #F0F3CF;
 }
 .bg-aw-2 {
-  background-color: #F5FAE3;
+  background-color: #B9C19A;
 }
 #projects-sw {
   color: white;
@@ -813,7 +824,7 @@ body {
   background-color: #EBF7FF;
 }
 .footer-aw {
-  background-color: #C49EBD;
+  background-color: #B9C19A;
 }
 .portfolio-modal img {
   max-width: 600
@@ -822,7 +833,7 @@ body {
   max-width: 600
 }
 
-.soft-or-art-btns {
+header .soft-or-art-btns {
   padding-top: 110px;
   padding-right: 30px;
 }
@@ -839,12 +850,16 @@ body {
 }
 .theme-btn {
   background-color: none;
-  border-color: rgba(255,255,255,0.4);
+  border-color: rgba(255,255,255,0.6);
   border-style: double;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.6);
   padding: 10px;
   text-transform: uppercase;
   text-decoration: none;
+}
+a .theme-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .theme-btn:hover,
 .theme-btn:focus,
@@ -853,4 +868,77 @@ body {
   color: #FFFFFF;
   border-color: #FFFFFF;
   text-decoration: none;
+}
+.artwork-side .bg-aw-1 .theme-btn {
+  background-color: none;
+  border-color: rgba(0,0,0,0.4);
+  border-style: double;
+  color: rgba(0,0,0,0.4);
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.artwork-side .bg-aw-1 .theme-btn:hover,
+.artwork-side .bg-aw-1 .theme-btn:focus,
+.artwork-side .bg-aw-1 .theme-btn:active,
+.artwork-side .bg-aw-1 .theme-btn.active {
+  color: #000000;
+  border-color: #000000;
+  text-decoration: none;
+}
+header .artwork-side .theme-btn {
+  background-color: none;
+  border-color: rgba(0,0,0,0.4);
+  border-style: double;
+  color: rgba(0,0,0,0.4);
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header .artwork-side .theme-btn:hover,
+header .artwork-side .theme-btn:focus,
+header .artwork-side .theme-btn:active,
+header .artwork-side .theme-btn.active {
+  color: #000000;
+  border-color: #000000;
+  text-decoration: none;
+}
+.contact-btn {
+  background-color: none;
+  border-color: rgba(54,78,95,0.4);
+  border-style: double;
+  color: rgba(54,78,95,0.4);
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 55px;
+}
+.contact-btn:hover,
+.contact-side .theme-btn:focus,
+.contact-side .theme-btn:active,
+.contact-side .theme-btn.active {
+  color: #364E5F;
+  border-color: #364E5F;
+  text-decoration: none;
+}
+.artwork-side .contact-btn {
+  background-color: none;
+  border-color: rgba(104,113,68,0.4);
+  border-style: double;
+  color: rgba(104,113,68,0.4);
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 55px;
+}
+.artwork-side .contact-btn:hover,
+.artwork-side .contact-side .theme-btn:focus,
+.artwork-side .contact-side .theme-btn:active,
+.artwork-side .contact-side .theme-btn.active {
+  color: #687144;
+  border-color: #687144;
+  text-decoration: none;
+}
+.bg-aw-2 {
+  color: white;
 }
