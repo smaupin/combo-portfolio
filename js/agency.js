@@ -32,6 +32,9 @@ $('.sw-btn').click(function() {
 	$('.software-side').show();
     $('.sw-btn').addClass('active');
     $('.aw-btn').removeClass('active');
+    $('footer').addClass('footer-sw');
+    $('footer').removeClass('footer-aw');
+
 });
 
 // when you click 'Artwork-Side' button, Artwork-Side class shows and software-side class hides
@@ -40,4 +43,6 @@ $('.aw-btn').click(function() {
 	$('.artwork-side').show();
     $('.aw-btn').addClass('active');
     $('.sw-btn').removeClass('active');
+    $('footer').addClass('footer-aw');
+    $('footer').removeClass('footer-sw');
 });

@@ -65,8 +65,8 @@ h6 {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: rgb(254, 213, 73);
-  border-color: rgb(254, 213, 73);
+  background-color: #364E5F;
+  /*border-color: rgb(254, 213, 73);*/
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -109,8 +109,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: #ffffff;
-  background-color: rgb(254, 213, 73);
-  border-color: rgb(254, 213, 73);
+  background-color: none;
+  border-color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: rgb( 68, 106, 162);
+  background-color: #A5BAC7;
 }
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -223,7 +223,7 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 3px;
   }
   .navbar-default.navbar-shrink {
-    background-color: rgb(141, 175, 172);
+    background-color: #364E5F;
     padding: 10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
@@ -244,7 +244,7 @@ header {
   color: white;*/
 }
 header .software-side {
-  background-image: url('../img/HEADER-SW.gif');
+  background-image: url('../img/HEADER-SW-04.gif');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -795,10 +795,10 @@ body {
 
 /*My own additional stylings*/
 .bg-sw-1 {
-  background-color: #f7f7f7;
+  background-color: #D3E6F3;
 }
 .bg-sw-2 {
-  background-color: rgb(45, 32, 20);
+  background-color: #A5BAC7;
 }
 .bg-aw-1 {
   background-color: #D2EAEA;
@@ -806,37 +806,13 @@ body {
 .bg-aw-2 {
   background-color: #F5FAE3;
 }
-.artwork-side h2 {
+#projects-sw {
   color: white;
 }
-#offshoots-aw p,h3,h4 {
-  color: white;
+.footer-sw {
+  background-color: #EBF7FF;
 }
-/*section#about-sw {
-  background-color: rgba(215, 236, 251, 1);
-}
-section#projects-sw {
-  background-color: rgba(237, 236, 216, 1);
-}
-section#contact-sw {
-  background-color: rgba(134, 117, 104, 1);
-}
-section#about-aw {
-  background-color: rgba(215, 236, 251, 1);
-}
-section#watercolor-aw {
-  background-color: rgba(237, 236, 216, 1);
-}
-section#illustration-aw {
-  background-color: rgba(134, 117, 104, 1);
-}
-section#offshoots-aw {
-  background-color: rgba(122, 153, 174, 1);
-}
-section#contact-aw {
-  background-color: rgb(255, 255, 255);
-}*/
-footer {
+.footer-aw {
   background-color: #C49EBD;
 }
 .portfolio-modal img {
@@ -860,4 +836,21 @@ footer {
 }
 .site-logo {
   height: 40px;
+}
+.theme-btn {
+  background-color: none;
+  border-color: rgba(255,255,255,0.4);
+  border-style: double;
+  color: rgba(255,255,255,0.4);
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.theme-btn:hover,
+.theme-btn:focus,
+.theme-btn:active,
+.theme-btn.active {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  text-decoration: none;
 }
